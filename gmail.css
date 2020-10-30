@@ -1,0 +1,109 @@
+.navbar-brand span{
+    font-size: 30px;
+    top: 7px;
+    left: 3.9rem;
+    color: gray;
+}
+
+.img img{
+    height: 20rem;
+    width: 25rem;
+}
+
+.gmail_btn{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #1a73e8;;
+    color: white;
+    margin-top:50px;
+}
+
+.gmail_btn:hover{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #175db9;;
+    color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.logo2{
+    height: 20vh;
+    width: 15vw;
+}
+
+.gmail_btn_2{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #1a73e8;;
+    color: white;
+    margin-top:50px;
+}
+
+.gmail_btn_2:hover{
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #175db9;;
+    color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.get_gmail_btn{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #1a73e8;;
+    color: white;
+    margin-top:50px;
+}
+
+.get_gmail_btn:hover{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: #175db9;;
+    color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+
+#ps{
+    height: 3rem;
+    width: 10rem;
+}
+
+.devices img{
+    width: 80vw;
+} 
+@media(max-width: 800px){
+    .img img{
+        height: 17rem;
+        width: 25rem;
+    }
+}
+
+@media(min-width: 1000px){
+    .img img{
+        height: 20rem;
+        width: 30rem;
+        margin-left: 50px;
+    }
+}
+
+@media(max-width: 700px){
+    .img img{
+        margin-top: 50px;
+        margin-left: 10vw;
+    }
+
+    .gmail_btn{
+       margin-left: 35vw; 
+    }
+
+    .content{
+        text-align: center;
+    }
+}
+
